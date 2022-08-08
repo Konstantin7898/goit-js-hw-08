@@ -5,9 +5,7 @@
   "homepage": "https://goitacademy.github.io/goit-js-hw-08",
   "scripts": {
     "start": "parcel ./src/html/*.html",
-    "build": "parcel build ./src/html/*.html --public-url /goit-js-hw-08/",
-    "predeploy": "nom run build",
-    "deploy": "gh-pages -d build"
+    "build": "parcel build ./src/html/*.html --public-url /goit-js-hw-08/"
   },
   "repository": {
     "type": "git",
